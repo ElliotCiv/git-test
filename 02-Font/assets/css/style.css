@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+h1{
+    color:gold;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 20%;
+}
+h2{
+    color: gold;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 10%;
+}
+p{
+    color: darkblue;
+    margin:.5rem;
+    margin-left: 1rem;
+}
+#f01{
+    font-family:Baskerville, 'Palatino Linotype', Times, 'Times New Roman', serif;
+}
+#f02{
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+#f03{
+    font-family:Franklin 'Gothic Medium', 'Arial Narrow Bold', Arial, sans-serif;    
+}
+#f04{
+    font-family: Futura, 'Century Gothic', AppleGothic, sans-serif;
+}
+#f05{
+    font-family: Garamond, 'Hoefler Text', Palatino, 'Palatino Linotyp', serif;
+}
+#f06{
+    font-family: Geneva, Verdana, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+#f07{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+#f08{
+    font-family: GillSans, Trebuchet, Calibri, sans-serif;
+}
+#f09{
+    font-family:Helvetica, 'Helvetica Neue', Arial, sans-serif ;
+}
+#f10{
+    font-family: 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+}
+#f11{
+    font-family:Palatino, 'Palatino Linotype', 'Hoefler Text', Times, 'Times New Roman',serif ;
+}
+#f12{
+    font-family: Trebuchet, Tahoma, Arial, sans-serif;
+}
+#f13{
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+}
+#f14{
+    font-family: 'Dancing script', cursive;
+}
+@font-face {
+    font-family: 'reeyregular';
+    src: url('../font/reey-regular-webfont.woff2') format('woff2'),
+         url('../font/reey-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#f15{
+    font-family: 'reeyregular';
+}
