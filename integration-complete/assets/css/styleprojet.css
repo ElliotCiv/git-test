@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    background-color: #0C0E1C;
+}
+ul{
+    display: flex;
+}
+@keyframes spinning{
+    100% {
+        transform: rotate(90deg);
+    }
+}
+.premier{
+    width: 15vw;
+    line-height: 5rem;
+    font-size: 2rem;
+    padding: 2rem;
+}
+div{
+    background-color: #f1eedc;
+    width: 3rem;
+    height: 3rem;
+    animation: spinning 2s;
+    margin-left: 5vw;
+    margin-top: 1vh;
+}
+a{
+    text-decoration: none;
+    color: #f1eedc;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: #f1eedc;
+    text-align: center;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+img{
+    width: 2rem;
+}
+.bas{
+    padding-right: .5rem;
+}
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    height: 65vh;
+    margin-right: 2rem;
+    text-align: center;
+    justify-content: flex-end;
+    overflow: hidden;
+    transition: background-position 1s;
+}
+h2{
+    color: #f1eedc;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;  
+}
+p{
+    color: #f1eedc;
+    opacity: 0;
+    width: 10rem;
+    font-style: italic;
+}
+article:hover{
+    transition: background-position 1s;
+    background-position-y: -4rem;
+}
+article:hover section{
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s;
+    transform: translate(0,-10rem);
+}
+article:hover p{
+    opacity: 1;
+}
+article:hover button{
+    opacity: 1;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transform: translate(0,15rem);
+    transition: transform 1s;
+}
+button{
+    border: none;
+    background-color:#0C0E1C ;
+    color: white;
+    padding: .5rem 1rem .5rem 1rem;
+    font-size: .8rem;
+    margin-top: 2rem;
+    opacity: 0;
+}
+#premier{
+    background-image: url(https://picsum.photos/id/1002/800);
+}
+#deuxieme{
+    background-image: url(https://picsum.photos/id/1015/800);
+}
+#troisieme{
+    background-image: url(https://picsum.photos/id/1073/800);
+}
+#quatrieme{
+    background-image: url(https://picsum.photos/id/1075/800);
+}
